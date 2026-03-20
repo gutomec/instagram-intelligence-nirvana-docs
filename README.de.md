@@ -26,6 +26,10 @@
   <a href="README.zh.md">🇨🇳 中文</a>
 </p>
 
+<p align="center">
+  <a href="https://gutomec.github.io/instagram-intelligence-nirvana-docs/de/"><strong>🌐 Landing Page Ansehen</strong></a>
+</p>
+
 ---
 
 <br />
