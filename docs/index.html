@@ -1,0 +1,2859 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nirvana — Da ideia ao post publicado. Da estratégia ao carrinho fechado.</title>
+<meta name="description" content="21 especialistas de IA, 131 capacidades, 13 fluxos automatizados. O sistema que transforma seu marketing digital: análise de concorrentes, posts prontos, copy de alta conversão, funis de venda. Multi-plataforma.">
+<meta name="keywords" content="marketing digital, IA, inteligência artificial, Instagram, TikTok, YouTube, conteúdo, social media, automação, squad">
+<meta name="author" content="instagram-intelligence-nirvana">
+<meta name="robots" content="index, follow">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Nirvana — Seu departamento de marketing digital em um sistema">
+<meta property="og:description" content="21 especialistas de IA trabalhando juntos. Da análise competitiva ao post publicado. 131 capacidades, 13 fluxos automatizados, 5 plataformas.">
+<meta property="og:url" content="https://github.com/instagram-intelligence-nirvana">
+<meta property="og:site_name" content="Nirvana">
+<meta property="og:locale" content="pt_BR">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Nirvana — Seu departamento de marketing digital em um sistema">
+<meta name="twitter:description" content="21 especialistas de IA. 131 capacidades. 13 fluxos automatizados. 5 plataformas. Da ideia ao post publicado.">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><radialGradient id='g' cx='50%25' cy='40%25'><stop offset='0%25' stop-color='%239B3FA5'/><stop offset='100%25' stop-color='%235A1E68'/></radialGradient></defs><circle cx='50' cy='50' r='45' fill='url(%23g)'/><circle cx='50' cy='38' r='12' fill='none' stroke='%23E8E8F0' stroke-width='2.5'/><path d='M30 70 Q50 50 70 70' fill='none' stroke='%23E8E8F0' stroke-width='2.5'/></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "instagram-intelligence-nirvana",
+  "alternateName": "Nirvana",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Cross-platform",
+  "description": "Squad de 21 agentes de IA para marketing digital: análise de concorrentes, criação de conteúdo, copy de alta conversão, funis de venda, design systems e validação de qualidade.",
+  "version": "4.0.0",
+  "license": "https://opensource.org/licenses/MIT",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "featureList": [
+    "21 especialistas de IA",
+    "131 capacidades",
+    "13 fluxos automatizados",
+    "5 plataformas suportadas",
+    "Análise competitiva multi-plataforma",
+    "Geração de imagens fotorrealistas",
+    "Copy de alta conversão",
+    "Design system automatizado"
+  ]
+}
+</script>
+
+<style>
+/* ═══════════════════════════════════════
+   RESET & BASE
+   ═══════════════════════════════════════ */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #7A288A;
+  --primary-light: #9B3FA5;
+  --primary-dark: #5A1E68;
+  --primary-glow: rgba(122, 40, 138, 0.3);
+  --bg: #0A0A0F;
+  --bg-elevated: #12121A;
+  --bg-card: #16161F;
+  --bg-card-hover: #1C1C28;
+  --text: #E8E8F0;
+  --text-dim: #9898A8;
+  --text-muted: #68687A;
+  --border: #2A2A3A;
+  --border-light: #3A3A4A;
+  --white: #FFFFFF;
+  --accent-green: #3DDB85;
+  --accent-orange: #F5A623;
+  --accent-red: #E8445A;
+  --accent-blue: #4A9EF5;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--primary-light);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--white);
+}
+
+a:focus-visible {
+  outline: 2px solid var(--primary-light);
+  outline-offset: 2px;
+}
+
+img { max-width: 100%; display: block; }
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+button:focus-visible {
+  outline: 2px solid var(--primary-light);
+  outline-offset: 2px;
+}
+
+/* ═══════════════════════════════════════
+   LAYOUT
+   ═══════════════════════════════════════ */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.section-label {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--primary-light);
+  margin-bottom: 16px;
+  display: block;
+}
+
+.section-title {
+  font-size: clamp(28px, 5vw, 48px);
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  color: var(--white);
+}
+
+.section-subtitle {
+  font-size: clamp(16px, 2.5vw, 20px);
+  color: var(--text-dim);
+  max-width: 680px;
+  line-height: 1.6;
+}
+
+.divider {
+  width: 60px;
+  height: 3px;
+  background: var(--primary);
+  margin: 40px 0;
+}
+
+/* ═══════════════════════════════════════
+   ANIMATIONS
+   ═══════════════════════════════════════ */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
+.reveal-delay-4 { transition-delay: 0.4s; }
+.reveal-delay-5 { transition-delay: 0.5s; }
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px var(--primary-glow); }
+  50% { box-shadow: 0 0 40px var(--primary-glow), 0 0 60px rgba(122, 40, 138, 0.15); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes grain {
+  0%, 100% { transform: translate(0, 0); }
+  10% { transform: translate(-2%, -2%); }
+  30% { transform: translate(3%, -1%); }
+  50% { transform: translate(-1%, 2%); }
+  70% { transform: translate(2%, 1%); }
+  90% { transform: translate(-3%, 0); }
+}
+
+/* ═══════════════════════════════════════
+   HEADER
+   ═══════════════════════════════════════ */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 0 24px;
+  transition: background 0.3s, backdrop-filter 0.3s;
+}
+
+.header.scrolled {
+  background: rgba(10, 10, 15, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border);
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 800;
+  font-size: 16px;
+  color: var(--white);
+  letter-spacing: -0.5px;
+}
+
+.header-logo svg {
+  width: 28px;
+  height: 28px;
+}
+
+.header-nav {
+  display: none;
+  gap: 32px;
+  align-items: center;
+}
+
+.header-nav a {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-dim);
+  letter-spacing: 0.3px;
+  transition: color 0.2s;
+}
+
+.header-nav a:hover {
+  color: var(--white);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.lang-select {
+  position: relative;
+}
+
+.lang-btn {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-dim);
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s;
+  background: transparent;
+}
+
+.lang-btn:hover {
+  color: var(--white);
+  border-color: var(--border-light);
+}
+
+.lang-btn svg {
+  width: 10px;
+  height: 10px;
+}
+
+.lang-dropdown {
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  min-width: 160px;
+  display: none;
+  z-index: 100;
+}
+
+.lang-dropdown.open {
+  display: block;
+}
+
+.lang-dropdown a {
+  display: block;
+  padding: 10px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-dim);
+  transition: all 0.15s;
+}
+
+.lang-dropdown a:hover {
+  background: var(--bg-card-hover);
+  color: var(--white);
+}
+
+.lang-dropdown a.active {
+  color: var(--primary-light);
+}
+
+.header-cta {
+  display: none;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--white);
+  background: var(--primary);
+  padding: 8px 20px;
+  transition: background 0.2s;
+}
+
+.header-cta:hover {
+  background: var(--primary-light);
+  color: var(--white);
+}
+
+.mobile-toggle {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 4px;
+}
+
+.mobile-toggle span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: var(--text);
+  transition: all 0.3s;
+}
+
+.mobile-nav {
+  display: none;
+  position: fixed;
+  top: 64px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(10, 10, 15, 0.98);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  z-index: 999;
+  padding: 32px 24px;
+}
+
+.mobile-nav.open {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.mobile-nav a {
+  display: block;
+  padding: 16px 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-dim);
+  border-bottom: 1px solid var(--border);
+  transition: color 0.2s;
+}
+
+.mobile-nav a:hover {
+  color: var(--white);
+}
+
+@media (min-width: 768px) {
+  .mobile-toggle { display: none; }
+  .header-nav { display: flex; }
+  .header-cta { display: inline-block; }
+}
+
+/* ═══════════════════════════════════════
+   HERO
+   ═══════════════════════════════════════ */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-top: 64px;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -20%;
+  right: -10%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(122, 40, 138, 0.15) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  background: linear-gradient(to top, var(--bg), transparent);
+  pointer-events: none;
+}
+
+.hero-grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    linear-gradient(rgba(122, 40, 138, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(122, 40, 138, 0.05) 1px, transparent 1px);
+  background-size: 60px 60px;
+  pointer-events: none;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+.hero-version {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--primary-light);
+  border: 1px solid var(--primary-dark);
+  padding: 6px 16px;
+  margin-bottom: 32px;
+}
+
+.hero h1 {
+  font-size: clamp(36px, 7vw, 72px);
+  font-weight: 900;
+  line-height: 1.05;
+  color: var(--white);
+  margin-bottom: 24px;
+  letter-spacing: -2px;
+}
+
+.hero h1 .highlight {
+  color: var(--primary-light);
+}
+
+.hero-tagline {
+  font-size: clamp(16px, 2.5vw, 22px);
+  color: var(--text-dim);
+  line-height: 1.6;
+  max-width: 600px;
+  margin-bottom: 48px;
+}
+
+.hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 48px;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  transition: border-color 0.3s, transform 0.3s;
+}
+
+.badge:hover {
+  border-color: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
+.badge-number {
+  font-size: 28px;
+  font-weight: 900;
+  color: var(--primary-light);
+  line-height: 1;
+}
+
+.badge-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+
+.hero-cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--white);
+  background: var(--primary);
+  padding: 16px 32px;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+  transition: left 0.5s;
+}
+
+.btn-primary:hover {
+  background: var(--primary-light);
+  color: var(--white);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px var(--primary-glow);
+}
+
+.btn-primary:hover::after {
+  left: 100%;
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-dim);
+  padding: 16px 24px;
+  border: 1px solid var(--border);
+  transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+  color: var(--white);
+  border-color: var(--text-dim);
+}
+
+.btn-secondary svg {
+  width: 16px;
+  height: 16px;
+}
+
+.hero-scroll-indicator {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-muted);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  animation: float 2s ease-in-out infinite;
+}
+
+.hero-scroll-indicator .scroll-line {
+  width: 1px;
+  height: 40px;
+  background: linear-gradient(to bottom, var(--primary-light), transparent);
+}
+
+/* ═══════════════════════════════════════
+   PROBLEM SECTION
+   ═══════════════════════════════════════ */
+.problem-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.problem-card {
+  padding: 40px 32px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.3s, transform 0.3s;
+}
+
+.problem-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--primary);
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.problem-card:hover {
+  border-color: var(--primary-dark);
+  transform: translateY(-4px);
+}
+
+.problem-card:hover::before {
+  transform: scaleY(1);
+}
+
+.problem-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: var(--primary-light);
+}
+
+.problem-icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+.problem-card h3 {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 12px;
+}
+
+.problem-card p {
+  font-size: 15px;
+  color: var(--text-dim);
+  line-height: 1.7;
+}
+
+@media (min-width: 768px) {
+  .problem-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ═══════════════════════════════════════
+   WHAT IS IT
+   ═══════════════════════════════════════ */
+.what-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.what-text {
+  max-width: 560px;
+}
+
+.what-text p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--text-dim);
+  margin-bottom: 20px;
+}
+
+.what-text p strong {
+  color: var(--white);
+  font-weight: 700;
+}
+
+.what-visual {
+  position: relative;
+  padding: 40px;
+}
+
+.what-orb {
+  width: 280px;
+  height: 280px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.what-orb-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, var(--primary-light), var(--primary-dark));
+  opacity: 0.15;
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.what-orb-ring {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid var(--primary-dark);
+}
+
+.what-orb-ring:nth-child(2) {
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+}
+
+.what-orb-ring:nth-child(3) {
+  width: 60%;
+  height: 60%;
+  top: 20%;
+  left: 20%;
+}
+
+.what-orb-center {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.what-orb-number {
+  font-size: 64px;
+  font-weight: 900;
+  color: var(--primary-light);
+  line-height: 1;
+}
+
+.what-orb-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-dim);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+@media (min-width: 768px) {
+  .what-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ═══════════════════════════════════════
+   CAPABILITIES
+   ═══════════════════════════════════════ */
+.cap-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 48px;
+}
+
+.cap-card {
+  padding: 32px 28px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  transition: all 0.3s;
+  position: relative;
+}
+
+.cap-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--primary), var(--primary-light));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cap-card:hover {
+  border-color: var(--primary-dark);
+  transform: translateY(-4px);
+  background: var(--bg-card-hover);
+}
+
+.cap-card:hover::after {
+  transform: scaleX(1);
+}
+
+.cap-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 16px;
+  color: var(--primary-light);
+}
+
+.cap-icon svg {
+  width: 28px;
+  height: 28px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.cap-card h3 {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.cap-card p {
+  font-size: 14px;
+  color: var(--text-dim);
+  line-height: 1.6;
+}
+
+@media (min-width: 600px) {
+  .cap-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .cap-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .cap-grid .cap-card:nth-child(n+6) {
+    /* second row */
+  }
+}
+
+/* ═══════════════════════════════════════
+   CASE STUDY
+   ═══════════════════════════════════════ */
+.case-section {
+  background: var(--bg-elevated);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.case-header {
+  margin-bottom: 48px;
+}
+
+.case-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-bottom: 48px;
+}
+
+.case-stat {
+  padding: 28px 24px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  text-align: center;
+}
+
+.case-stat-number {
+  font-size: clamp(32px, 5vw, 48px);
+  font-weight: 900;
+  color: var(--primary-light);
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.case-stat-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-dim);
+  line-height: 1.3;
+}
+
+.case-timeline {
+  position: relative;
+  padding-left: 32px;
+}
+
+.case-timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 8px;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to bottom, var(--primary), var(--primary-dark), transparent);
+}
+
+.case-phase {
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.case-phase:last-child {
+  padding-bottom: 0;
+}
+
+.case-phase::before {
+  content: '';
+  position: absolute;
+  left: -28px;
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  background: var(--primary);
+  border: 2px solid var(--bg);
+}
+
+.case-phase-title {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 8px;
+}
+
+.case-phase-desc {
+  font-size: 14px;
+  color: var(--text-dim);
+  line-height: 1.7;
+}
+
+.case-result {
+  margin-top: 48px;
+  padding: 32px;
+  background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+  position: relative;
+  overflow: hidden;
+}
+
+.case-result::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.05));
+}
+
+.case-result p {
+  font-size: clamp(16px, 2.5vw, 20px);
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.5;
+  position: relative;
+  z-index: 2;
+}
+
+.case-result .time-highlight {
+  display: inline-block;
+  background: rgba(255,255,255,0.15);
+  padding: 2px 12px;
+  font-weight: 900;
+  margin: 0 4px;
+}
+
+@media (min-width: 600px) {
+  .case-stats {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .case-stats {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+/* ═══════════════════════════════════════
+   USE CASES (ACCORDION)
+   ═══════════════════════════════════════ */
+.use-cases-list {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.use-case {
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  transition: border-color 0.3s;
+}
+
+.use-case.open {
+  border-color: var(--primary-dark);
+}
+
+.use-case-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 24px;
+  width: 100%;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--white);
+  transition: background 0.2s;
+}
+
+.use-case-header:hover {
+  background: var(--bg-card-hover);
+}
+
+.use-case-number {
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--primary-light);
+  min-width: 28px;
+}
+
+.use-case-toggle {
+  margin-left: auto;
+  width: 20px;
+  height: 20px;
+  color: var(--text-muted);
+  transition: transform 0.3s;
+  flex-shrink: 0;
+}
+
+.use-case.open .use-case-toggle {
+  transform: rotate(45deg);
+}
+
+.use-case-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.use-case.open .use-case-body {
+  max-height: 600px;
+}
+
+.use-case-content {
+  padding: 0 24px 24px 68px;
+  font-size: 14px;
+  color: var(--text-dim);
+  line-height: 1.7;
+}
+
+.use-case-content strong {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.use-case-result {
+  margin-top: 16px;
+  padding: 16px;
+  background: rgba(122, 40, 138, 0.08);
+  border-left: 3px solid var(--primary);
+  font-weight: 600;
+  color: var(--text);
+}
+
+/* ═══════════════════════════════════════
+   PLATFORMS
+   ═══════════════════════════════════════ */
+.platforms-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 48px;
+}
+
+.platform-card {
+  padding: 32px 24px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.platform-card:hover {
+  border-color: var(--primary-dark);
+  transform: translateY(-4px);
+}
+
+.platform-card:last-child {
+  grid-column: 1 / -1;
+}
+
+.platform-icon {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 16px;
+  color: var(--primary-light);
+}
+
+.platform-icon svg {
+  width: 40px;
+  height: 40px;
+}
+
+.platform-card h3 {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 8px;
+}
+
+.platform-card p {
+  font-size: 13px;
+  color: var(--text-dim);
+  line-height: 1.5;
+}
+
+@media (min-width: 600px) {
+  .platforms-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .platform-card:last-child {
+    grid-column: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .platforms-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+/* ═══════════════════════════════════════
+   WORKFLOWS
+   ═══════════════════════════════════════ */
+.workflows-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  margin-top: 48px;
+}
+
+.workflow-category {
+  margin-bottom: 32px;
+}
+
+.workflow-category-title {
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--primary-light);
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.workflow-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  transition: all 0.2s;
+  margin-bottom: 8px;
+}
+
+.workflow-item:hover {
+  border-color: var(--primary-dark);
+  background: var(--bg-card-hover);
+}
+
+.workflow-number {
+  font-size: 11px;
+  font-weight: 900;
+  color: var(--primary-light);
+  background: rgba(122, 40, 138, 0.15);
+  padding: 4px 8px;
+  min-width: 32px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.workflow-info h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 4px;
+}
+
+.workflow-info p {
+  font-size: 13px;
+  color: var(--text-dim);
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  .workflows-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+}
+
+/* ═══════════════════════════════════════
+   AUDIENCE
+   ═══════════════════════════════════════ */
+.audience-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 48px;
+}
+
+.audience-card {
+  padding: 32px 28px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  display: flex;
+  gap: 20px;
+  transition: all 0.3s;
+}
+
+.audience-card:hover {
+  border-color: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
+.audience-icon {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(122, 40, 138, 0.1);
+  color: var(--primary-light);
+}
+
+.audience-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.audience-card h3 {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 6px;
+}
+
+.audience-card p {
+  font-size: 14px;
+  color: var(--text-dim);
+  line-height: 1.6;
+}
+
+@media (min-width: 600px) {
+  .audience-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .audience-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ═══════════════════════════════════════
+   FAQ
+   ═══════════════════════════════════════ */
+.faq-list {
+  margin-top: 48px;
+  max-width: 800px;
+}
+
+.faq-item {
+  border-bottom: 1px solid var(--border);
+}
+
+.faq-question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 0;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  transition: color 0.2s;
+}
+
+.faq-question:hover {
+  color: var(--white);
+}
+
+.faq-chevron {
+  width: 16px;
+  height: 16px;
+  color: var(--text-muted);
+  transition: transform 0.3s;
+  flex-shrink: 0;
+  margin-left: 16px;
+}
+
+.faq-item.open .faq-chevron {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.faq-item.open .faq-answer {
+  max-height: 400px;
+}
+
+.faq-answer p {
+  padding-bottom: 20px;
+  font-size: 14px;
+  color: var(--text-dim);
+  line-height: 1.7;
+}
+
+/* ═══════════════════════════════════════
+   CTA FINAL
+   ═══════════════════════════════════════ */
+.cta-section {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-section::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(122, 40, 138, 0.12) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.cta-title {
+  font-size: clamp(32px, 6vw, 56px);
+  font-weight: 900;
+  color: var(--white);
+  margin-bottom: 20px;
+  position: relative;
+  letter-spacing: -1px;
+}
+
+.cta-subtitle {
+  font-size: clamp(16px, 2.5vw, 20px);
+  color: var(--text-dim);
+  max-width: 600px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+.cta-command {
+  display: inline-block;
+  font-family: 'Courier New', monospace;
+  font-size: clamp(14px, 2vw, 18px);
+  font-weight: 700;
+  color: var(--primary-light);
+  background: var(--bg-card);
+  border: 1px solid var(--primary-dark);
+  padding: 16px 32px;
+  margin-top: 24px;
+  letter-spacing: 0.5px;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.cta-command:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--primary);
+}
+
+/* ═══════════════════════════════════════
+   FOOTER
+   ═══════════════════════════════════════ */
+.footer {
+  padding: 48px 0;
+  border-top: 1px solid var(--border);
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-langs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.footer-langs a {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-dim);
+  transition: color 0.2s;
+}
+
+.footer-langs a:hover {
+  color: var(--white);
+}
+
+.footer-langs a.active {
+  color: var(--primary-light);
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.footer-github {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-dim);
+  padding: 8px 16px;
+  border: 1px solid var(--border);
+  transition: all 0.2s;
+}
+
+.footer-github:hover {
+  color: var(--white);
+  border-color: var(--border-light);
+}
+
+.footer-github svg {
+  width: 18px;
+  height: 18px;
+}
+
+.footer-copy {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.footer-copy a {
+  color: var(--text-muted);
+}
+
+.footer-copy a:hover {
+  color: var(--primary-light);
+}
+
+@media (min-width: 768px) {
+  .footer-inner {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .footer-bottom {
+    align-items: flex-end;
+  }
+}
+
+/* ═══════════════════════════════════════
+   GRAIN OVERLAY
+   ═══════════════════════════════════════ */
+.grain-overlay {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+  animation: grain 8s steps(10) infinite;
+  opacity: 0.5;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Grain texture overlay -->
+<div class="grain-overlay" aria-hidden="true"></div>
+
+<!-- ═══════════════════════════════════════
+     HEADER
+     ═══════════════════════════════════════ -->
+<header class="header" role="banner">
+  <div class="header-inner">
+    <a href="#" class="header-logo" aria-label="Nirvana - Voltar ao topo">
+      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="50" cy="50" r="45" fill="url(#logo-grad)"/>
+        <circle cx="50" cy="38" r="12" stroke="#E8E8F0" stroke-width="3" fill="none"/>
+        <path d="M30 70 Q50 50 70 70" stroke="#E8E8F0" stroke-width="3" fill="none"/>
+        <defs>
+          <radialGradient id="logo-grad" cx="50%" cy="40%">
+            <stop offset="0%" stop-color="#9B3FA5"/>
+            <stop offset="100%" stop-color="#5A1E68"/>
+          </radialGradient>
+        </defs>
+      </svg>
+      NIRVANA
+    </a>
+
+    <nav class="header-nav" aria-label="Navegação principal">
+      <a href="#capacidades">Capacidades</a>
+      <a href="#case-study">Case Study</a>
+      <a href="#fluxos">Fluxos</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-select">
+        <button class="lang-btn" aria-label="Selecionar idioma" aria-expanded="false" onclick="toggleLang()">
+          PT-BR
+          <svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+            <path d="M2 4 L5 7 L8 4"/>
+          </svg>
+        </button>
+        <div class="lang-dropdown" id="langDropdown" role="menu" aria-label="Idiomas disponíveis">
+          <a href="https://github.com/guto/instagram-intelligence-nirvana-docs/blob/main/README.md" role="menuitem" class="active">Portugues (BR)</a>
+          <a href="https://github.com/guto/instagram-intelligence-nirvana-docs/blob/main/README.en.md" role="menuitem">English</a>
+          <a href="https://github.com/guto/instagram-intelligence-nirvana-docs/blob/main/README.es.md" role="menuitem">Español</a>
+          <a href="https://github.com/guto/instagram-intelligence-nirvana-docs/blob/main/README.fr.md" role="menuitem">Français</a>
+          <a href="https://github.com/guto/instagram-intelligence-nirvana-docs/blob/main/README.de.md" role="menuitem">Deutsch</a>
+          <a href="https://github.com/guto/instagram-intelligence-nirvana-docs/blob/main/README.zh.md" role="menuitem">中文</a>
+        </div>
+      </div>
+
+      <a href="https://github.com/guto/instagram-intelligence-nirvana" class="header-cta">GitHub</a>
+
+      <button class="mobile-toggle" aria-label="Abrir menu" onclick="toggleMobile()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile nav -->
+<nav class="mobile-nav" id="mobileNav" aria-label="Menu mobile">
+  <a href="#capacidades" onclick="closeMobile()">Capacidades</a>
+  <a href="#case-study" onclick="closeMobile()">Case Study</a>
+  <a href="#exemplos" onclick="closeMobile()">Exemplos</a>
+  <a href="#plataformas" onclick="closeMobile()">Plataformas</a>
+  <a href="#fluxos" onclick="closeMobile()">Fluxos</a>
+  <a href="#para-quem" onclick="closeMobile()">Para Quem</a>
+  <a href="#faq" onclick="closeMobile()">FAQ</a>
+</nav>
+
+<main>
+
+<!-- ═══════════════════════════════════════
+     SECTION 1: HERO
+     ═══════════════════════════════════════ -->
+<section class="hero" aria-label="Apresentação principal">
+  <div class="hero-grid" aria-hidden="true"></div>
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-version reveal">v4.0.0 NIRVANA ULTIMATE</div>
+      <h1 class="reveal reveal-delay-1">
+        Da ideia ao post<br>
+        publicado.<br>
+        Da estratégia ao<br>
+        carrinho <span class="highlight">fechado.</span>
+      </h1>
+      <p class="hero-tagline reveal reveal-delay-2">
+        Seu departamento completo de marketing digital comprimido em um único sistema.
+        21 especialistas de IA trabalhando juntos, do primeiro insight competitivo
+        até o post finalizado com legenda, imagem e hashtags otimizadas.
+      </p>
+
+      <div class="hero-badges reveal reveal-delay-3">
+        <div class="badge">
+          <span class="badge-number">21</span>
+          <span class="badge-label">Especialistas</span>
+        </div>
+        <div class="badge">
+          <span class="badge-number">131</span>
+          <span class="badge-label">Capacidades</span>
+        </div>
+        <div class="badge">
+          <span class="badge-number">13</span>
+          <span class="badge-label">Fluxos</span>
+        </div>
+        <div class="badge">
+          <span class="badge-number">5</span>
+          <span class="badge-label">Plataformas</span>
+        </div>
+      </div>
+
+      <div class="hero-cta-group reveal reveal-delay-4">
+        <a href="https://github.com/guto/instagram-intelligence-nirvana" class="btn-primary">
+          Ativar o Sistema
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M3 8h10M9 4l4 4-4 4"/>
+          </svg>
+        </a>
+        <a href="#case-study" class="btn-secondary">
+          Ver Prova Real
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M8 3v10M4 9l4 4 4-4"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll-indicator" aria-hidden="true">
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     SECTION 2: O PROBLEMA
+     ═══════════════════════════════════════ -->
+<section class="section" id="problema" aria-labelledby="problem-title">
+  <div class="container">
+    <span class="section-label reveal">O Problema</span>
+    <h2 class="section-title reveal" id="problem-title">Você reconhece essa situação?</h2>
+    <p class="section-subtitle reveal">
+      Produzir conteúdo profissional para redes sociais exige pelo menos
+      4 habilidades diferentes. Nenhuma pessoa sozinha domina todas elas.
+    </p>
+
+    <div class="problem-cards">
+      <article class="problem-card reveal">
+        <div class="problem-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="4" y="4" width="24" height="24"/>
+            <path d="M4 12h24M12 12v16M20 12v16"/>
+            <circle cx="8" cy="8" r="1.5" fill="currentColor" stroke="none"/>
+            <circle cx="16" cy="8" r="1.5" fill="currentColor" stroke="none"/>
+          </svg>
+        </div>
+        <h3>A agência sobrecarregada</h3>
+        <p>
+          10 clientes, 50 legendas por semana, um designer atrasado e uma
+          copywriter que não da conta. Contratar mais gente come a margem inteira.
+          O resultado? Três visões diferentes e nenhuma consistência.
+        </p>
+      </article>
+
+      <article class="problem-card reveal reveal-delay-1">
+        <div class="problem-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="16" cy="10" r="6"/>
+            <path d="M6 28c0-5.5 4.5-10 10-10s10 4.5 10 10"/>
+            <path d="M20 6l4-2M24 10l3 1"/>
+          </svg>
+        </div>
+        <h3>O criador solitário</h3>
+        <p>
+          Faz tudo sozinho. Abre o Canva, escreve legenda as pressas, publica e
+          torce para que alguem se importe. 15 horas por semana. O conteúdo sai medíocre
+          e o concorrente publica todo dia com posts bonitos.
+        </p>
+      </article>
+
+      <article class="problem-card reveal reveal-delay-2">
+        <div class="problem-icon" aria-hidden="true">
+          <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 28L16 4l12 24z"/>
+            <path d="M16 18v4M16 24v1"/>
+          </svg>
+        </div>
+        <h3>O empreendedor sem time</h3>
+        <p>
+          Precisa de funil de vendas, landing page, emails, anúncios e posts de
+          lançamento. O prazo era ontem. Contratar uma agência custa R$20 mil
+          por mês. Fazer sozinho gera resultado amador.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     SECTION 3: O QUE E
+     ═══════════════════════════════════════ -->
+<section class="section" id="o-que-e" aria-labelledby="what-title">
+  <div class="container">
+    <span class="section-label reveal">O Que E</span>
+    <h2 class="section-title reveal" id="what-title">Um time completo. Zero salarios.</h2>
+
+    <div class="what-content">
+      <div class="what-text reveal">
+        <p>
+          <strong>O Nirvana e o seu departamento completo de marketing digital
+          comprimido em um único sistema.</strong> Você descreve o que precisa
+          em português simples. O sistema analisa, cria, escreve, renderiza
+          e entrega tudo pronto para publicar.
+        </p>
+        <p>
+          Não e um template. Não e um gerador de texto generico.
+          E um time de <strong>21 especialistas</strong> que trabalham juntos,
+          cada um cuidando de uma parte do processo: da análise competitiva
+          até o post finalizado com legenda, imagem e hashtags otimizadas.
+        </p>
+        <p>
+          Não e promessa futura. Cada capacidade listada aqui funciona hoje.
+          O Projeto NutroPosts comprovou em produção real.
+        </p>
+      </div>
+
+      <div class="what-visual reveal reveal-delay-2" aria-hidden="true">
+        <div class="what-orb">
+          <div class="what-orb-bg"></div>
+          <div class="what-orb-ring"></div>
+          <div class="what-orb-ring"></div>
+          <div class="what-orb-ring"></div>
+          <div class="what-orb-center">
+            <div class="what-orb-number">21</div>
+            <div class="what-orb-label">Especialistas</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     SECTION 4: CAPACIDADES
+     ═══════════════════════════════════════ -->
+<section class="section" id="capacidades" aria-labelledby="cap-title">
+  <div class="container">
+    <span class="section-label reveal">Capacidades</span>
+    <h2 class="section-title reveal" id="cap-title">131 capacidades. 10 que mudam tudo.</h2>
+    <p class="section-subtitle reveal">
+      Cada capacidade é real, funcional, testada em produção. Não e roadmap.
+    </p>
+
+    <div class="cap-grid">
+      <!-- 1. Espionar concorrentes -->
+      <article class="cap-card reveal">
+        <div class="cap-icon" aria-hidden="true">
+          <svg viewBox="0 0 28 28">
+            <circle cx="12" cy="12" r="8"/>
+            <path d="M18 18l6 6"/>
+            <path d="M12 8v8M8 12h8"/>
+          </svg>
+        </div>
+        <h3>Espionar concorrentes em qualquer plataforma</h3>
+        <p>Posts, reels, stories, hashtags, anúncios pagos. Relatório mostrando o que funciona e por que.</p>
+      </article>
+
+      <!-- 2. Posts prontos -->
+      <article class="cap-card reveal reveal-delay-1">
+        <div class="cap-icon" aria-hidden="true">
+          <svg viewBox="0 0 28 28">
+            <rect x="3" y="3" width="22" height="22"/>
+            <path d="M3 10h22M10 10v15"/>
+            <path d="M15 15h6M15 19h4"/>
+          </svg>
+        </div>
+        <h3>Criar posts prontos para publicar</h3>
+        <p>Carrosseis finalizados, design profissional, sua marca aplicada. Abrir e publicar.</p>
+      </article>
+
+      <!-- 3. Imagens IA -->
+      <article class="cap-card reveal reveal-delay-2">
+        <div class="cap-icon" aria-hidden="true">
+          <svg viewBox="0 0 28 28">
+            <rect x="3" y="5" width="22" height="18"/>
+            <circle cx="10" cy="12" r="3"/>
+            <path d="M3 20l6-6 4 4 5-5 7 7"/>
+          </svg>
+        </div>
+        <h3>Gerar imagens fotorrealistas com IA</h3>
+        <p>Hero shots, product shots, lifestyle. Resolução até 4K. Chega de banco de imagens.</p>
+      </article>
+
+      <!-- 4. Legendas -->
+      <article class="cap-card reveal reveal-delay-3">
+        <div class="cap-icon" aria-hidden="true">
+          <svg viewBox="0 0 28 28">
+            <path d="M4 6h20M4 12h16M4 18h12M4 24h8"/>
+          </svg>
+        </div>
+        <h3>Escrever legendas otimizadas</h3>
+        <p>Hook em 125 chars, corpo estruturado, CTA, hashtags pesquisadas, alt-text acessível.</p>
+      </article>
+
+      <!-- 5. Ofertas -->
+      <article class="cap-card reveal reveal-delay-4">
+        <div class="cap-icon" aria-hidden="true">
+          <svg viewBox="0 0 28 28">
+            <path d="M14 3l3 8h8l-6.5 5 2.5 8L14 19l-7 5 2.5-8L3 11h8z"/>
+          </svg>
+        </div>
+        <h3>Criar ofertas irresistíveis</h3>
+        <p>Grand Slam Offer + Value Ladder. Bonus, garantia, escassez real. Frameworks de Hormozi e Brunson.</p>
+      </article>
+
+      <!-- 6. Copy -->
+      <article class="cap-card reveal">
+        <div class="cap-icon" aria-hidden="true">
+          <svg viewBox="0 0 28 28">
+            <path d="M6 4h16v20H6z"/>
+            <path d="M10 9h8M10 13h8M10 17h5"/>
+            <path d="M20 4v6h6"/>
+          </svg>
+        </div>
+        <h3>Escrever copy de alta conversão</h3>
+        <p>Sales letters, headlines magneticas, emails, landing pages. Adaptado para o mercado BR.</p>
+      </article>
+
+      <!-- 7. Lançamentos -->
+      <article class="cap-card reveal reveal-delay-1">
+        <div class="cap-icon" aria-hidden="true">
+          <svg viewBox="0 0 28 28">
+            <path d="M14 3v22M14 3l-8 8M14 3l8 8"/>
+            <path d="M4 25h20"/>
+          </svg>
+        </div>
+        <h3>Planejar lançamentos digitais</h3>
+        <p>Seed, interno, JV, perpétuo. CPLs com roteiros, timeline, estratégia de tráfego.</p>
+      </article>
+
+      <!-- 8. Precificação -->
+      <article class="cap-card reveal reveal-delay-2">
+        <div class="cap-icon" aria-hidden="true">
+          <svg viewBox="0 0 28 28">
+            <circle cx="14" cy="14" r="11"/>
+            <path d="M14 7v14M10 10h6a3 3 0 010 6h-6M10 16h6a3 3 0 010 0"/>
+          </svg>
+        </div>
+        <h3>Definir precificação baseada em valor</h3>
+        <p>Willingness-to-pay, benchmark, tiers otimizados, projecao financeira com cenários.</p>
+      </article>
+
+      <!-- 9. Design Systems -->
+      <article class="cap-card reveal reveal-delay-3">
+        <div class="cap-icon" aria-hidden="true">
+          <svg viewBox="0 0 28 28">
+            <rect x="3" y="3" width="10" height="10"/>
+            <rect x="15" y="3" width="10" height="10"/>
+            <rect x="3" y="15" width="10" height="10"/>
+            <rect x="15" y="15" width="10" height="10"/>
+          </svg>
+        </div>
+        <h3>Criar design systems e materiais visuais</h3>
+        <p>Tokens extraidos automaticamente. PNG, PDF, PPTX. Identidade visual consistente.</p>
+      </article>
+
+      <!-- 10. QA -->
+      <article class="cap-card reveal reveal-delay-4">
+        <div class="cap-icon" aria-hidden="true">
+          <svg viewBox="0 0 28 28">
+            <path d="M6 14l5 5L22 8"/>
+            <circle cx="14" cy="14" r="11"/>
+          </svg>
+        </div>
+        <h3>Validar qualidade automaticamente</h3>
+        <p>Inspecao visual automatizada. Score 0-100. Consistencia de marca, legibilidade, contraste.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     SECTION 5: CASE STUDY
+     ═══════════════════════════════════════ -->
+<section class="section case-section" id="case-study" aria-labelledby="case-title">
+  <div class="container">
+    <div class="case-header">
+      <span class="section-label reveal">Prova Real</span>
+      <h2 class="section-title reveal" id="case-title">Projeto NutroPosts</h2>
+      <p class="section-subtitle reveal">
+        Numeros falam mais alto que promessas.
+        O primeiro grande teste do sistema em produção real.
+      </p>
+    </div>
+
+    <div class="case-stats">
+      <div class="case-stat reveal">
+        <div class="case-stat-number">50</div>
+        <div class="case-stat-label">Posts completos</div>
+      </div>
+      <div class="case-stat reveal reveal-delay-1">
+        <div class="case-stat-number">250</div>
+        <div class="case-stat-label">PNGs renderizados</div>
+      </div>
+      <div class="case-stat reveal reveal-delay-2">
+        <div class="case-stat-number">48</div>
+        <div class="case-stat-label">Imagens IA</div>
+      </div>
+      <div class="case-stat reveal reveal-delay-3">
+        <div class="case-stat-number">5</div>
+        <div class="case-stat-label">Perfis analisados</div>
+      </div>
+      <div class="case-stat reveal reveal-delay-4">
+        <div class="case-stat-number">&lt;2h</div>
+        <div class="case-stat-label">Tempo total</div>
+      </div>
+    </div>
+
+    <div class="case-timeline reveal">
+      <div class="case-phase">
+        <h3 class="case-phase-title">Fase 1: Inteligência</h3>
+        <p class="case-phase-desc">
+          5 perfis de médicos analisados em profundidade: @drericberg (3M+ seguidores),
+          @dr.monteze, @drlazarolourenco, @dra.sarina, @doutorbarakat. 6 relatórios de
+          inteligência competitiva com padrões de conteúdo, formatos e gaps de mercado.
+        </p>
+      </div>
+      <div class="case-phase">
+        <h3 class="case-phase-title">Fase 2: Criação</h3>
+        <p class="case-phase-desc">
+          50 posts completos (carrosséis de 6 slides + infograficos).
+          250 PNGs em alta resolução 2160x2700px retina @2x. 48 hero shots
+          fotorrealistas gerados por IA para as capas. 50 legendas com
+          hook + corpo + CTA + hashtags + alt-text.
+        </p>
+      </div>
+      <div class="case-phase">
+        <h3 class="case-phase-title">Fase 3: Design System</h3>
+        <p class="case-phase-desc">
+          Identidade visual unificada aplicada automaticamente: Montserrat (400-900),
+          cor primaria #7A288A, formato 1080x1350px (feed otimizado), escala retina @2x,
+          marca @pauloalmeida.med em cada slide.
+        </p>
+      </div>
+      <div class="case-phase">
+        <h3 class="case-phase-title">Fase 4: Qualidade</h3>
+        <p class="case-phase-desc">
+          Cada post passou por inspecao visual automatizada. Verificação de legibilidade,
+          contraste, alinhamento, consistência de marca e adequação de dimensoes.
+          Score de qualidade 0-100 por post.
+        </p>
+      </div>
+    </div>
+
+    <div class="case-result reveal">
+      <p>
+        50 posts. 250 PNGs. 48 imagens originais. 50 legendas. 6 relatórios.
+        <span class="time-highlight">Menos de 2 horas.</span>
+        Uma agência cobraria entre R$8.000 e R$15.000 para produzir esse
+        volume com essa qualidade. Um freelancer levaria 3 a 4 semanas.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     SECTION 6: EXEMPLOS DE USO
+     ═══════════════════════════════════════ -->
+<section class="section" id="exemplos" aria-labelledby="examples-title">
+  <div class="container">
+    <span class="section-label reveal">Exemplos de Uso</span>
+    <h2 class="section-title reveal" id="examples-title">Situações reais. Resultados reais.</h2>
+    <p class="section-subtitle reveal">
+      Não são cenários hipotéticos. Cada um é algo que o sistema faz hoje.
+    </p>
+
+    <div class="use-cases-list">
+      <!-- 1 -->
+      <div class="use-case reveal">
+        <button class="use-case-header" aria-expanded="false" onclick="toggleUseCase(this)">
+          <span class="use-case-number">01</span>
+          Agência gerenciando 10 clientes
+          <svg class="use-case-toggle" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M10 4v12M4 10h12"/>
+          </svg>
+        </button>
+        <div class="use-case-body">
+          <div class="use-case-content">
+            <p>
+              <strong>Situação:</strong> 10 clientes, conteúdo semanal, equipe de 3 sobrecarregada.
+              O designer vive atrasado, a copywriter não da conta de 50 legendas por semana.
+            </p>
+            <p style="margin-top: 12px">
+              <strong>O que o sistema faz:</strong> Configura o design system de cada cliente uma vez.
+              Cria carrosséis com dados relevantes, gera imagens originais, escreve legendas com hooks testados,
+              monitora concorrentes e entrega relatórios semanais.
+            </p>
+            <div class="use-case-result">
+              50 posts/semana para 10 clientes, cada um com identidade visual intacta.
+              A margem da agência sobe porque o custo por post despenca.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="use-case reveal">
+        <button class="use-case-header" aria-expanded="false" onclick="toggleUseCase(this)">
+          <span class="use-case-number">02</span>
+          Médico que quer presença nas redes
+          <svg class="use-case-toggle" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M10 4v12M4 10h12"/>
+          </svg>
+        </button>
+        <div class="use-case-body">
+          <div class="use-case-content">
+            <p>
+              <strong>Situação:</strong> Dr. Paulo e cardiologista. Sabe que precisa estar nas redes,
+              mas não tem tempo. Conteúdo anterior ficava generico, sem autoridade medica.
+            </p>
+            <p style="margin-top: 12px">
+              <strong>O que o sistema faz:</strong> Analisa os 5 maiores perfis de cardiologistas.
+              Identifica temas, formatos e tom de voz que conectam. Cria 10 posts/semana com
+              conteúdo educativo, carrosséis e legendas que posicionam como autoridade.
+            </p>
+            <div class="use-case-result">
+              40 posts profissionais em um mês. Pacientes compartilham. Colegas seguem.
+              Agenda presencial enchendo via Instagram.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="use-case reveal">
+        <button class="use-case-header" aria-expanded="false" onclick="toggleUseCase(this)">
+          <span class="use-case-number">03</span>
+          E-commerce lancando produto novo
+          <svg class="use-case-toggle" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M10 4v12M4 10h12"/>
+          </svg>
+        </button>
+        <div class="use-case-body">
+          <div class="use-case-content">
+            <p>
+              <strong>Situação:</strong> Marca de cosmeticos naturais, 5 produtos novos, equipe minima.
+              Precisa de funil, landing page, emails, anúncios e posts. Prazo: duas semanas.
+            </p>
+            <p style="margin-top: 12px">
+              <strong>O que o sistema faz:</strong> Monta oferta Grand Slam, projeta funil de 4 fases,
+              escreve sales letter, cria sequencia de 12 emails, gera product shots fotorrealistas.
+            </p>
+            <div class="use-case-result">
+              Lançamento completo pronto em uma semana. Landing page, 12 emails, 15 posts,
+              5 product shots. O time só precisa agendar e publicar.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="use-case reveal">
+        <button class="use-case-header" aria-expanded="false" onclick="toggleUseCase(this)">
+          <span class="use-case-number">04</span>
+          Criador de conteúdo escalando produção
+          <svg class="use-case-toggle" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M10 4v12M4 10h12"/>
+          </svg>
+        </button>
+        <div class="use-case-body">
+          <div class="use-case-content">
+            <p>
+              <strong>Situação:</strong> Marina, influenciadora de produtividade, 80k seguidores.
+              Cada post leva 3 horas. 15 horas/semana só para manter frequência.
+            </p>
+            <p style="margin-top: 12px">
+              <strong>O que o sistema faz:</strong> Analisa os 50 posts mais recentes e os top 10 do nicho.
+              Identifica temas, formatos e hooks que funcionam. Cria 10 posts/semana baseados em dados.
+            </p>
+            <div class="use-case-result">
+              Dobrou a frequência sem adicionar uma hora na agenda.
+              Engajamento subiu porque o conteúdo agora e baseado em dados.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="use-case reveal">
+        <button class="use-case-header" aria-expanded="false" onclick="toggleUseCase(this)">
+          <span class="use-case-number">05</span>
+          SaaS planejando lançamento com PLF
+          <svg class="use-case-toggle" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M10 4v12M4 10h12"/>
+          </svg>
+        </button>
+        <div class="use-case-body">
+          <div class="use-case-content">
+            <p>
+              <strong>Situação:</strong> Startup de gestao financeira, produto pronto, equipe dev forte.
+              Ninguem sabe montar lançamento digital. Duas tentativas anteriores fracassaram.
+            </p>
+            <p style="margin-top: 12px">
+              <strong>O que o sistema faz:</strong> Planejá lançamento com Product Launch Formula.
+              4 CPLs com roteiros, value ladder, oferta de lançamento, sequencia de emails,
+              sales letter, anúncios com 3 variações por publico, projecao financeira.
+            </p>
+            <div class="use-case-result">
+              Lançamento de 45 dias completo: 4 CPLs, 12 emails, landing page, 6 anúncios.
+              A equipe técnica executa o plano sem virar especialista em marketing.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6 -->
+      <div class="use-case reveal">
+        <button class="use-case-header" aria-expanded="false" onclick="toggleUseCase(this)">
+          <span class="use-case-number">06</span>
+          Social media monitorando concorrentes
+          <svg class="use-case-toggle" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M10 4v12M4 10h12"/>
+          </svg>
+        </button>
+        <div class="use-case-body">
+          <div class="use-case-content">
+            <p>
+              <strong>Situação:</strong> Gabriela gerencia redes de uma rede de academias.
+              Gasta um dia inteiro toda semana em relatórios de concorrência.
+            </p>
+            <p style="margin-top: 12px">
+              <strong>O que o sistema faz:</strong> Analisa 8 concorrentes, coleta posts da semana,
+              calcula metricas, detecta virais, identifica tendencias, gera relatório executivo.
+            </p>
+            <div class="use-case-result">
+              Relatório pronto segunda de manha. Apresenta ao dono em 10 minutos.
+              O que levava um dia agora leva 15 minutos.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 7 -->
+      <div class="use-case reveal">
+        <button class="use-case-header" aria-expanded="false" onclick="toggleUseCase(this)">
+          <span class="use-case-number">07</span>
+          Consultor criando material de venda
+          <svg class="use-case-toggle" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M10 4v12M4 10h12"/>
+          </svg>
+        </button>
+        <div class="use-case-body">
+          <div class="use-case-content">
+            <p>
+              <strong>Situação:</strong> Ricardo, consultor B2B, precisa de apresentação,
+              proposta comercial, posts LinkedIn e sales letter. Sem designer.
+            </p>
+            <p style="margin-top: 12px">
+              <strong>O que o sistema faz:</strong> Extrai design system do site. Cria PPTX de 15 slides,
+              proposta PDF de 8 paginas, 8 posts LinkedIn, one-page sales letter por email.
+            </p>
+            <div class="use-case-result">
+              Material que parece agência de R$15 mil/mes. Prospect diz "vocês são profissionais".
+              Contrato de R$120 mil fechado na segunda reuniao.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 8 -->
+      <div class="use-case reveal">
+        <button class="use-case-header" aria-expanded="false" onclick="toggleUseCase(this)">
+          <span class="use-case-number">08</span>
+          Nutricionista querendo 50 posts prontos
+          <svg class="use-case-toggle" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M10 4v12M4 10h12"/>
+          </svg>
+        </button>
+        <div class="use-case-body">
+          <div class="use-case-content">
+            <p>
+              <strong>Situação:</strong> Dra. Camila, nutricionista funcional, quer 50 posts educativos
+              para 2 mêses. Sem conteúdo generico, com posicionamento diferenciado.
+            </p>
+            <p style="margin-top: 12px">
+              <strong>O que o sistema faz:</strong> Analisa maiores perfis do nicho, identifica gaps.
+              Cria 30 carrosséis + 20 infograficos, 48 imagens IA de alimentos, 50 legendas
+              acessiveis, design system aplicado em cada peca, QA visual automatizado.
+            </p>
+            <div class="use-case-result">
+              50 posts, 250 PNGs, 48 imagens originais, 50 legendas. Dois mêses de
+              conteúdo prontos. Esse cenario e exatamente o Projeto NutroPosts.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     SECTION 7: PLATAFORMAS
+     ═══════════════════════════════════════ -->
+<section class="section" id="plataformas" aria-labelledby="platforms-title">
+  <div class="container">
+    <span class="section-label reveal">Plataformas</span>
+    <h2 class="section-title reveal" id="platforms-title">Um sistema. Cinco plataformas.</h2>
+    <p class="section-subtitle reveal">
+      O conteúdo se multiplica sem perder qualidade.
+      Um carrossel de Instagram vira um script de TikTok.
+      Um post educativo vira um Short para YouTube.
+    </p>
+
+    <div class="platforms-grid">
+      <article class="platform-card reveal">
+        <div class="platform-icon" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none">
+            <rect x="4" y="4" width="32" height="32" rx="8" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="20" cy="20" r="8" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="30" cy="10" r="2.5" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3>Instagram</h3>
+        <p>Posts, carrosséis, stories, reels, análise de perfis, espionagem</p>
+      </article>
+
+      <article class="platform-card reveal reveal-delay-1">
+        <div class="platform-icon" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none">
+            <path d="M8 8h24v24H8z" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M12 20h4l4-8 4 16 4-8h4" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3>TikTok</h3>
+        <p>Scripts de video, análise de tendencias, adaptação para formato curto</p>
+      </article>
+
+      <article class="platform-card reveal reveal-delay-2">
+        <div class="platform-icon" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none">
+            <path d="M6 10h28v20H6z" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M14 18l6 4 6-4" stroke="currentColor" stroke-width="1.5" fill="none"/>
+            <path d="M14 18v-4" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M26 18v-4" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+        </div>
+        <h3>YouTube</h3>
+        <p>Thumbnails, scripts para Shorts, análise de canais e videos concorrentes</p>
+      </article>
+
+      <article class="platform-card reveal reveal-delay-3">
+        <div class="platform-icon" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none">
+            <circle cx="20" cy="20" r="16" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M16 14v12l4-2 4 2V14" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+        </div>
+        <h3>Facebook</h3>
+        <p>Análise de anúncios via Meta Ads Library, posts adaptados, espionagem</p>
+      </article>
+
+      <article class="platform-card reveal reveal-delay-4">
+        <div class="platform-icon" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none">
+            <circle cx="20" cy="20" r="14" stroke="currentColor" stroke-width="1.5"/>
+            <path d="M12 14h16M10 20h20M12 26h16" stroke="currentColor" stroke-width="1.5"/>
+            <ellipse cx="20" cy="20" rx="6" ry="14" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+        </div>
+        <h3>Web</h3>
+        <p>Landing pages, sales letters, emails, PDFs, apresentações PPTX</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     SECTION 8: 13 FLUXOS
+     ═══════════════════════════════════════ -->
+<section class="section" id="fluxos" aria-labelledby="flows-title" style="background: var(--bg-elevated); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+  <div class="container">
+    <span class="section-label reveal">Fluxos Automatizados</span>
+    <h2 class="section-title reveal" id="flows-title">13 fluxos. Do inicio ao fim.</h2>
+    <p class="section-subtitle reveal">
+      Você ativa, configura os parametros e recebe o resultado completo.
+      Cada fluxo executa um processó inteiro de ponta a ponta.
+    </p>
+
+    <div class="workflows-grid">
+      <div>
+        <div class="workflow-category reveal">
+          <div class="workflow-category-title">Produção e Conteúdo</div>
+          <div class="workflow-item">
+            <span class="workflow-number">01</span>
+            <div class="workflow-info">
+              <h4>Produção completa de conteúdo</h4>
+              <p>O fluxo mais poderoso. Analisa, cria, gera imagens, escreve legendas, valida qualidade.</p>
+            </div>
+          </div>
+          <div class="workflow-item">
+            <span class="workflow-number">02</span>
+            <div class="workflow-info">
+              <h4>Conteúdo multi-plataforma</h4>
+              <p>Um conteúdo, multiplas plataformas. Instagram, TikTok, YouTube, Facebook.</p>
+            </div>
+          </div>
+          <div class="workflow-item">
+            <span class="workflow-number">03</span>
+            <div class="workflow-info">
+              <h4>Refresh de marca</h4>
+              <p>Re-aplica tokens de design em todos os materiais existentes de uma vez.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="workflow-category reveal">
+          <div class="workflow-category-title">Estratégia e Vendas</div>
+          <div class="workflow-item">
+            <span class="workflow-number">04</span>
+            <div class="workflow-info">
+              <h4>Sala de guerra estrategica</h4>
+              <p>Todos os especialistas em estratégia juntos. Sai com plano de ação priorizado.</p>
+            </div>
+          </div>
+          <div class="workflow-item">
+            <span class="workflow-number">05</span>
+            <div class="workflow-info">
+              <h4>Criação completa de funil</h4>
+              <p>Pesquisa, oferta, landing page, emails, anúncios. Do topo ao fundo.</p>
+            </div>
+          </div>
+          <div class="workflow-item">
+            <span class="workflow-number">06</span>
+            <div class="workflow-info">
+              <h4>Lançamento digital</h4>
+              <p>PLF completo: timeline, CPLs, emails, posts, tráfego pago, projecao financeira.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="workflow-category reveal">
+          <div class="workflow-category-title">Inteligência Competitiva</div>
+          <div class="workflow-item">
+            <span class="workflow-number">07</span>
+            <div class="workflow-info">
+              <h4>Análise semanal profunda</h4>
+              <p>Metricas, virais, tendencias, relatório executivo. Rode toda segunda-feira.</p>
+            </div>
+          </div>
+          <div class="workflow-item">
+            <span class="workflow-number">08</span>
+            <div class="workflow-info">
+              <h4>Scan rapido de concorrentes</h4>
+              <p>Panorama express com os destaques em minutos.</p>
+            </div>
+          </div>
+          <div class="workflow-item">
+            <span class="workflow-number">09</span>
+            <div class="workflow-info">
+              <h4>Monitoramento semanal</h4>
+              <p>Metricas-chave e alertas sobre mudancas relevantes.</p>
+            </div>
+          </div>
+          <div class="workflow-item">
+            <span class="workflow-number">10</span>
+            <div class="workflow-info">
+              <h4>Ciclo mensal de inteligência</h4>
+              <p>Visão de longo prazo. Tendencias de crescimento e evolucao estrategica.</p>
+            </div>
+          </div>
+          <div class="workflow-item">
+            <span class="workflow-number">11</span>
+            <div class="workflow-info">
+              <h4>Deep dive orgânico</h4>
+              <p>Mergulho profundo em posts, comentarios e interações. Padroes invisiveis.</p>
+            </div>
+          </div>
+          <div class="workflow-item">
+            <span class="workflow-number">12</span>
+            <div class="workflow-info">
+              <h4>Análise de anúncios pagos</h4>
+              <p>Meta Ads Library: formatos vencedores, investimento estimado, testes A/B.</p>
+            </div>
+          </div>
+          <div class="workflow-item">
+            <span class="workflow-number">13</span>
+            <div class="workflow-info">
+              <h4>Construtor de swipe file</h4>
+              <p>Coleta os melhores anúncios do nicho com análise de hook, copy e performance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     SECTION 9: PARA QUEM
+     ═══════════════════════════════════════ -->
+<section class="section" id="para-quem" aria-labelledby="audience-title">
+  <div class="container">
+    <span class="section-label reveal">Para Quem</span>
+    <h2 class="section-title reveal" id="audience-title">Se você se identificou, foi feito para você.</h2>
+
+    <div class="audience-grid">
+      <article class="audience-card reveal">
+        <div class="audience-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18"/>
+            <path d="M3 9h18M9 9v12M15 9v12"/>
+          </svg>
+        </div>
+        <div>
+          <h3>Agências de marketing digital</h3>
+          <p>Escalar produção de conteúdo sem escalar o time na mêsma proporcao.</p>
+        </div>
+      </article>
+
+      <article class="audience-card reveal reveal-delay-1">
+        <div class="audience-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+          </svg>
+        </div>
+        <div>
+          <h3>Profissionais de saúde</h3>
+          <p>Médicos, nutricionistas, dentistas. Presenca digital com autoridade e sem perder tempo.</p>
+        </div>
+      </article>
+
+      <article class="audience-card reveal reveal-delay-2">
+        <div class="audience-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4zM3 6h18"/>
+            <path d="M16 10a4 4 0 01-8 0"/>
+          </svg>
+        </div>
+        <div>
+          <h3>E-commerces</h3>
+          <p>Funis de venda, product shots e campanhas de lançamento sem agência de R$20 mil/mes.</p>
+        </div>
+      </article>
+
+      <article class="audience-card reveal reveal-delay-3">
+        <div class="audience-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="8" r="5"/>
+            <path d="M3 21v-2a7 7 0 0114 0v2"/>
+            <path d="M16 3l3 3-3 3"/>
+          </svg>
+        </div>
+        <div>
+          <h3>Criadores de conteúdo</h3>
+          <p>Dobrar ou triplicar a frequência sem multiplicar o esforco.</p>
+        </div>
+      </article>
+
+      <article class="audience-card reveal reveal-delay-4">
+        <div class="audience-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 20V10M6 20V4M18 20v-6"/>
+          </svg>
+        </div>
+        <div>
+          <h3>Empresas SaaS</h3>
+          <p>Estratégia de lançamento, precificação e materiais de venda sem marketing estruturado.</p>
+        </div>
+      </article>
+
+      <article class="audience-card reveal reveal-delay-5">
+        <div class="audience-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+          </svg>
+        </div>
+        <div>
+          <h3>Consultores e freelancers</h3>
+          <p>Propostas, apresentações e sales letters profissionais sem orcamento para designer.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     SECTION 10: FAQ
+     ═══════════════════════════════════════ -->
+<section class="section" id="faq" aria-labelledby="faq-title">
+  <div class="container">
+    <span class="section-label reveal">Perguntas Frequentes</span>
+    <h2 class="section-title reveal" id="faq-title">Tudo que você quer saber.</h2>
+
+    <div class="faq-list">
+      <div class="faq-item reveal">
+        <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+          Precisó saber programar?
+          <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg>
+        </button>
+        <div class="faq-answer">
+          <p>Nao. Você escreve o que precisa em português simples e o sistema executa. Sem comandos técnicos, sem sintaxe especial.</p>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+          Funciona para qualquer nicho?
+          <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg>
+        </button>
+        <div class="faq-answer">
+          <p>Sim. Saude, fitness, financas, educação, e-commerce, SaaS, consultoria, gastronomia, moda, beleza, tecnologia. O sistema se adapta porque comeca analisando o mercado específico antes de criar qualquer conteúdo.</p>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+          A qualidade e boa de verdade?
+          <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg>
+        </button>
+        <div class="faq-answer">
+          <p>O Projeto NutroPosts gerou 250 PNGs em resolução retina (2160x2700px) com design system profissional aplicado. Cada post passou por inspecao automatizada. Resultado indistinguivel de agência premium.</p>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+          Possó usar minha identidade visual?
+          <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg>
+        </button>
+        <div class="faq-answer">
+          <p>Sim. Você configura seu design system uma vez (cores, fontes, logo, estilo) e o sistema aplica automaticamente em tudo que produz.</p>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+          Quanto tempo leva para produzir conteúdo?
+          <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg>
+        </button>
+        <div class="faq-answer">
+          <p>Depende do volume. 50 posts completos com imagens IA e legendas otimizadas levaram menos de 2 horas no Projeto NutroPosts. Um lote de 10 posts simples sai em minutos.</p>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+          Serve para alem do Instagram?
+          <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg>
+        </button>
+        <div class="faq-answer">
+          <p>Sim. Instagram, TikTok, YouTube, Facebook e Web. O conteúdo e adaptado para as dimensoes e boas praticas de cada plataforma.</p>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+          Da para espionar concorrentes?
+          <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg>
+        </button>
+        <div class="faq-answer">
+          <p>Sim. O sistema analisa perfis, posts, reels, stories, hashtags, comentarios e até anúncios pagos via Meta Ads Library. Entrega relatórios com tudo que seus concorrentes estao fazendo e o que gera resultado.</p>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+          E se eu precisar só de copy, sem design?
+          <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg>
+        </button>
+        <div class="faq-answer">
+          <p>O sistema e modular. Você pode pedir só headlines, só uma sales letter, só uma sequencia de emails, só um funil de vendas. Usa o que precisar.</p>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+          Os posts ficam todos iguais?
+          <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg>
+        </button>
+        <div class="faq-answer">
+          <p>Nao. Cada post e criado com base em dados reais. O sistema varia formatos (carrossel, infografico, post único), angulos (educativo, inspiracional, polemico, prático) e abordagens. Identidade visual consistente, conteúdo diverso.</p>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+          Precisó de alguma chave de API?
+          <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg>
+        </button>
+        <div class="faq-answer">
+          <p>Sim. O sistema usa a API do Google Gemini para geração de imagens e análise de midia. Você precisa de uma GOOGLE_API_KEY. E a unica dependencia externa obrigatoria.</p>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+          Quanto conteúdo consigo produzir de uma vez?
+          <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg>
+        </button>
+        <div class="faq-answer">
+          <p>Sem limite prático. O Projeto NutroPosts produziu 50 posts com 250 PNGs em uma unica execucao. Você pode pedir 10, 30, 50 ou 100. O sistema escala com o tamanho do pedido.</p>
+        </div>
+      </div>
+
+      <div class="faq-item reveal">
+        <button class="faq-question" onclick="toggleFaq(this)" aria-expanded="false">
+          Possó usar para clientes diferentes com marcas diferentes?
+          <svg class="faq-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6l4 4 4-4"/></svg>
+        </button>
+        <div class="faq-answer">
+          <p>Sim. Cada execucao pode usar um design system diferente. Configure cores, fontes e estilo de cada cliente e o sistema aplica automaticamente. Ideal para agências com multiplas marcas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════
+     SECTION 11: CTA FINAL
+     ═══════════════════════════════════════ -->
+<section class="section cta-section" aria-labelledby="cta-title">
+  <div class="container">
+    <span class="section-label reveal" style="display: block; text-align: center;">Comece Agora</span>
+    <h2 class="cta-title reveal" id="cta-title">Ative o Sistema.</h2>
+    <p class="cta-subtitle reveal">
+      Pare de criar conteúdo na força bruta.
+      Descreva o que precisa em português simples.
+      Receba tudo pronto.
+    </p>
+    <div class="reveal reveal-delay-1" style="text-align: center;">
+      <a href="https://github.com/guto/instagram-intelligence-nirvana" class="btn-primary" style="margin-bottom: 24px;">
+        Acessar o Repositorio
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M3 8h10M9 4l4 4-4 4"/>
+        </svg>
+      </a>
+    </div>
+    <div class="reveal reveal-delay-2" style="text-align: center;">
+      <code class="cta-command">squad_activate instagram-intelligence-nirvana</code>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ═══════════════════════════════════════
+     SECTION 12: FOOTER
+     ═══════════════════════════════════════ -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-langs" aria-label="Documentação em outros idiomas">
+        <a href="https://github.com/guto/instagram-intelligence-nirvana-docs/blob/main/README.md" class="active">Português</a>
+        <a href="https://github.com/guto/instagram-intelligence-nirvana-docs/blob/main/README.en.md">English</a>
+        <a href="https://github.com/guto/instagram-intelligence-nirvana-docs/blob/main/README.es.md">Español</a>
+        <a href="https://github.com/guto/instagram-intelligence-nirvana-docs/blob/main/README.fr.md">Français</a>
+        <a href="https://github.com/guto/instagram-intelligence-nirvana-docs/blob/main/README.de.md">Deutsch</a>
+        <a href="https://github.com/guto/instagram-intelligence-nirvana-docs/blob/main/README.zh.md">中文</a>
+      </div>
+
+      <div class="footer-bottom">
+        <a href="https://github.com/guto/instagram-intelligence-nirvana" class="footer-github" aria-label="Repositorio no GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+          GitHub
+        </a>
+        <p class="footer-copy">
+          v4.0.0 NIRVANA ULTIMATE &middot; <a href="https://opensource.org/licenses/MIT">MIT License</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ═══════════════════════════════════════
+     JAVASCRIPT
+     ═══════════════════════════════════════ -->
+<script>
+/* ── Scroll reveal via IntersectionObserver ── */
+(function() {
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, {
+    threshold: 0.1,
+    rootMargin: '0px 0px -40px 0px'
+  });
+
+  document.querySelectorAll('.reveal').forEach(function(el) {
+    observer.observe(el);
+  });
+})();
+
+/* ── Sticky header scroll detection ── */
+(function() {
+  var header = document.querySelector('.header');
+  var scrollThreshold = 50;
+
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > scrollThreshold) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  }, { passive: true });
+})();
+
+/* ── Language dropdown toggle ── */
+function toggleLang() {
+  var dropdown = document.getElementById('langDropdown');
+  var btn = dropdown.previousElementSibling;
+  var isOpen = dropdown.classList.contains('open');
+
+  dropdown.classList.toggle('open');
+  btn.setAttribute('aria-expanded', !isOpen);
+}
+
+/* Close dropdown on outside click */
+document.addEventListener('click', function(e) {
+  var langSelect = document.querySelector('.lang-select');
+  if (!langSelect.contains(e.target)) {
+    var dropdown = document.getElementById('langDropdown');
+    dropdown.classList.remove('open');
+    dropdown.previousElementSibling.setAttribute('aria-expanded', 'false');
+  }
+});
+
+/* ── Mobile navigation toggle ── */
+function toggleMobile() {
+  var nav = document.getElementById('mobileNav');
+  nav.classList.toggle('open');
+}
+
+function closeMobile() {
+  var nav = document.getElementById('mobileNav');
+  nav.classList.remove('open');
+}
+
+/* ── Use cases accordion ── */
+function toggleUseCase(btn) {
+  var parent = btn.closest('.use-case');
+  var isOpen = parent.classList.contains('open');
+
+  /* Close all */
+  document.querySelectorAll('.use-case').forEach(function(uc) {
+    uc.classList.remove('open');
+    uc.querySelector('.use-case-header').setAttribute('aria-expanded', 'false');
+  });
+
+  /* Open clicked if it was closed */
+  if (!isOpen) {
+    parent.classList.add('open');
+    btn.setAttribute('aria-expanded', 'true');
+  }
+}
+
+/* ── FAQ accordion ── */
+function toggleFaq(btn) {
+  var parent = btn.closest('.faq-item');
+  var isOpen = parent.classList.contains('open');
+
+  /* Close all */
+  document.querySelectorAll('.faq-item').forEach(function(item) {
+    item.classList.remove('open');
+    item.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+  });
+
+  /* Open clicked if it was closed */
+  if (!isOpen) {
+    parent.classList.add('open');
+    btn.setAttribute('aria-expanded', 'true');
+  }
+}
+
+/* ── Smooth scroll for anchor links ── */
+document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+  anchor.addEventListener('click', function(e) {
+    var targetId = this.getAttribute('href');
+    if (targetId === '#') return;
+    var target = document.querySelector(targetId);
+    if (target) {
+      e.preventDefault();
+      var headerOffset = 80;
+      var elementPosition = target.getBoundingClientRect().top;
+      var offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
+  });
+});
+</script>
+
+</body>
+</html>
