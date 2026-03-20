@@ -792,6 +792,10 @@ MIT. Frei nutzbar, veränderbar und&nbsp;verteilbar.
 <p align="center">
   <br />
   <code>squad_activate instagram-intelligence-nirvana</code>
+  <br /><br />
+  <a href="https://squads.sh/pt/gutomec/instagram-intelligence-nirvana/instagram-intelligence-nirvana"><strong>👉 Im Marketplace Erwerben</strong></a>
+  &nbsp;|&nbsp;
+  <a href="https://gutomec.github.io/instagram-intelligence-nirvana-docs/de/">🌐 Landing Page Ansehen</a>
   <br />
   <br />
 </p>

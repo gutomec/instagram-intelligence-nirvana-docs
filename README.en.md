@@ -792,6 +792,10 @@ MIT. Use, modify, and distribute&nbsp;freely.
 <p align="center">
   <br />
   <code>squad_activate instagram-intelligence-nirvana</code>
+  <br /><br />
+  <a href="https://squads.sh/pt/gutomec/instagram-intelligence-nirvana/instagram-intelligence-nirvana"><strong>👉 Get it on the Marketplace</strong></a>
+  &nbsp;|&nbsp;
+  <a href="https://gutomec.github.io/instagram-intelligence-nirvana-docs/en/">🌐 View Landing Page</a>
   <br />
   <br />
 </p>
